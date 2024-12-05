@@ -79,6 +79,7 @@
             >;
 
             label = "dir";
+            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
     };
 };
