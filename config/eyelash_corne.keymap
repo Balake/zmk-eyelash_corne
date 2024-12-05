@@ -72,14 +72,14 @@
 
         directions {
             bindings = <
-&bootloader  &sys_reset  &trans  &trans  &trans  &trans                    &trans          &trans  &trans    &trans    &trans     &sys_reset  &bootloader
-&trans       &trans      &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans    &kp UP    &trans     &trans      &trans
-&trans       &trans      &trans  &trans  &trans  &trans  &trans            &trans          &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans      &trans
-                                 &trans  &trans  &trans                                    &trans  &trans    &trans
+&bootloader  &sys_reset  &trans  &trans  &trans  &trans                    &trans          &trans  &trans          &kp UP_ARROW  &trans     &sys_reset  &bootloader
+&trans       &trans      &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans      &trans
+&trans       &trans      &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans          &trans        &trans     &trans      &trans
+                                 &trans  &trans  &trans                                    &trans  &trans          &trans
             >;
 
             label = "dir";
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
     };
 };
