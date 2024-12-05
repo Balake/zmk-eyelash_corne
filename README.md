@@ -11,6 +11,13 @@
 3. Make sure the `eyelash_corne` project in [`config/west.yml`](config/west.yml) still works. The `boards/arm/eyelash_corne` folder will be downloaded from this URL.
 4. If there is still a `boards/arm/eyelash_corne` folder in your fork, delete it.
 
+### How to change keymap
+1. Steps 1-2 above (or fork this repo)
+2. Change keymap and push changes. I recommend using [keymap editor](https://nickcoutsos.github.io/keymap-editor/).
+3. Download artifacts.
+4. Plug in either board, double press sys_reset button or &bootloader
+5. Drag the appropriate half of .uf2 file to NICE NANO usb device that should show up. Note: on macOS, this can crash finder lol but it still works
+
 **If you already have a ZMK config repository, [you can add this one as a module instead of forking](https://zmk.dev/docs/features/modules#building-with-modules).**
 
 ## Keymap Diagram
