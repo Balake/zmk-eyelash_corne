@@ -75,7 +75,7 @@ layers:
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
   - '*'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '''', s: '"'}
   - {t: '$$mdi:transfer$$', type: trans}
   - '|'
   - '&'
