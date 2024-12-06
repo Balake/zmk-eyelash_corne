@@ -1,5 +1,6 @@
 #include <input/processors.dtsi>
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/rgb.h>
@@ -72,10 +73,10 @@
 
         directions {
             bindings = <
-&bootloader  &sys_reset  &trans  &trans  &trans  &trans                    &trans          &trans  &trans          &kp UP_ARROW  &trans     &sys_reset  &bootloader
-&trans       &trans      &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans      &trans
-&trans       &trans      &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans          &trans        &trans     &trans      &trans
-                                 &trans  &trans  &trans                                    &trans  &trans          &trans
+&bootloader  &sys_reset  &trans  &trans  &trans  &rgb_ug RGB_TOG                    &trans          &trans  &trans          &kp UP_ARROW  &trans     &sys_reset  &bootloader
+&trans       &trans      &trans  &trans  &trans  &rgb_ug RGB_BRI            &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans      &trans
+&bt BT_NXT   &bt BT_PRV  &trans  &trans  &trans  &rgb_ug RGB_BRD  &trans            &trans          &trans  &trans          &trans        &trans     &trans      &trans
+                                 &trans  &trans  &trans                                             &trans  &trans          &trans
             >;
 
             label = "dir";
