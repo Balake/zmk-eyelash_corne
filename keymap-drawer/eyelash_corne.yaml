@@ -43,10 +43,10 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
   - $$mdi:keyboard-esc$$
-  - {t: '&lt BACKSPACE', h: '&lt 1'}
+  - {t: '$$mdi:backspace$$', h: sym}
   - $$mdi:keyboard-tab$$
-  - {t: '&mt ENTER', h: '&mt RIGHT_SHIFT'}
-  - {t: '&lt SPACE', h: '&lt 2'}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:keyboard-space$$', h: dir}
   - $$mdi:apple-keyboard-option$$
   sym:
   - {t: \, s: '|'}
@@ -92,7 +92,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
   - {t: '0', s: )}
@@ -144,5 +144,5 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
