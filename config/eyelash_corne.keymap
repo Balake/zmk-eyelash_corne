@@ -28,26 +28,6 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
-
-        lt_custom: lt_custom {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <125>;
-            quick-tap-ms = <0>;
-            global-quick-tap;
-            bindings = <&lt>, <&lt>;
-        };
-
-        mt_custom: mt_custom {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <125>;
-            quick-tap-ms = <0>;
-            global-quick-tap;
-            bindings = <&mt>, <&mt>;
-        };
     };
 
     rgb_encoder: rgb_encoder {
@@ -73,7 +53,7 @@
 &kp GRAVE  &kp Q  &kp W  &kp D    &kp F            &kp G                           &kp UP                &kp Y                  &kp U        &kp L      &kp K    &kp SEMI  &kp BSPC
 &td0       &kp A  &kp S  &kp E    &kp R            &kp T                 &kp LEFT  &kp ENTER  &kp RIGHT  &kp H                  &kp N        &kp I      &kp O    &kp P     &kp SQT
 &kp LGUI   &kp Z  &kp X  &kp C    &kp V            &kp B    &kp SPACE              &kp DOWN              &kp J                  &kp M        &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
-                         &kp ESC  &lt_custom 1 BACKSPACE  &kp TAB                                               &mt_custom RIGHT_SHIFT ENTER  &lt_custom  2 SPACE  &kp RALT
+                         &kp ESC  &lt 1 BACKSPACE  &kp TAB                                               &mt RIGHT_SHIFT ENTER  &lt 2 SPACE  &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
