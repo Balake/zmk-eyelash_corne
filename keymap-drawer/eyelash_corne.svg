@@ -525,8 +525,8 @@ rect.held, rect.combo.held {
 <path d="M518,94 l-192,-48" class="combo"/>
 <path d="M518,94 l192,48" class="combo"/>
 <rect rx="6" ry="6" x="504" y="81" width="28" height="26" class="combo"/>
-<a href="#gm">
-<text x="518" y="94" class="combo tap layer-activator">gm</text>
+<a href="#game">
+<text x="518" y="94" class="combo tap layer-activator">game</text>
 </a><text x="518" y="105" class="combo hold">toggle</text>
 </g>
 </g>
@@ -798,8 +798,8 @@ rect.held, rect.combo.held {
 <path d="M518,94 l-192,-48" class="combo"/>
 <path d="M518,94 l192,48" class="combo"/>
 <rect rx="6" ry="6" x="504" y="81" width="28" height="26" class="combo"/>
-<a href="#gm">
-<text x="518" y="94" class="combo tap layer-activator">gm</text>
+<a href="#game">
+<text x="518" y="94" class="combo tap layer-activator">game</text>
 </a><text x="518" y="105" class="combo hold">toggle</text>
 </g>
 </g>
@@ -1062,14 +1062,14 @@ rect.held, rect.combo.held {
 <path d="M518,94 l-192,-48" class="combo"/>
 <path d="M518,94 l192,48" class="combo"/>
 <rect rx="6" ry="6" x="504" y="81" width="28" height="26" class="combo"/>
-<a href="#gm">
-<text x="518" y="94" class="combo tap layer-activator">gm</text>
+<a href="#game">
+<text x="518" y="94" class="combo tap layer-activator">game</text>
 </a><text x="518" y="105" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
-<g transform="translate(40, 955)" class="layer-gm">
-<text x="0" y="28" class="label" id="gm">gm:</text>
+<g transform="translate(40, 955)" class="layer-game">
+<text x="0" y="28" class="label" id="game">game:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -1288,8 +1288,8 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:keyboard-esc"/>
-<a href="#gm_num">
-<text x="0" y="24" class="key hold layer-activator">gm_num</text>
+<a href="#gnum">
+<text x="0" y="24" class="key hold layer-activator">gnum</text>
 </a></g>
 <g transform="translate(285, 209) rotate(12.0)" class="key keypos-43">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1320,14 +1320,14 @@ rect.held, rect.combo.held {
 <path d="M518,94 l-192,-48" class="combo"/>
 <path d="M518,94 l192,48" class="combo"/>
 <rect rx="6" ry="6" x="504" y="81" width="28" height="26" class="combo"/>
-<a href="#gm">
-<text x="518" y="94" class="combo tap layer-activator">gm</text>
+<a href="#game">
+<text x="518" y="94" class="combo tap layer-activator">game</text>
 </a><text x="518" y="105" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
-<g transform="translate(40, 1274)" class="layer-gm_num">
-<text x="0" y="28" class="label" id="gm_num">gm_num:</text>
+<g transform="translate(40, 1274)" class="layer-gnum">
+<text x="0" y="28" class="label" id="gnum">gnum:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -1582,8 +1582,8 @@ rect.held, rect.combo.held {
 <path d="M518,94 l-192,-48" class="combo"/>
 <path d="M518,94 l192,48" class="combo"/>
 <rect rx="6" ry="6" x="504" y="81" width="28" height="26" class="combo"/>
-<a href="#gm">
-<text x="518" y="94" class="combo tap layer-activator">gm</text>
+<a href="#game">
+<text x="518" y="94" class="combo tap layer-activator">game</text>
 </a><text x="518" y="105" class="combo hold">toggle</text>
 </g>
 </g>
