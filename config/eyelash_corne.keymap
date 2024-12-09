@@ -51,6 +51,15 @@
         tap-ms = <30>;
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        gm {
+            bindings = <&to 3>;
+            key-positions = <5 37>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -88,6 +97,15 @@
 
             label = "dir";
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
+        };
+
+        gm {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &to 0   &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans                                    &trans  &trans  &trans
+            >;
         };
     };
 };
