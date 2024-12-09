@@ -106,15 +106,19 @@
 &mt LEFT_CONTROL M  &trans  &trans  &trans     &trans     &trans   &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
                                     &lt 4 ESC  &kp SPACE  &kp TAB                                    &trans  &trans  &trans
             >;
+
+            label = "game";
         };
 
-        gm_num {
+        gnum {
             bindings = <
 &trans  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans                                    &trans  &trans  &trans
             >;
+
+            label = "gnum";
         };
     };
 };
