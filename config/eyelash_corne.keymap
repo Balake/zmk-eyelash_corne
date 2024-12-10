@@ -79,7 +79,7 @@
             display-name = "sym";
             bindings = <
 &kp BSLH   &kp EXCL   &kp AT     &kp HASH  &kp DOLLAR            &kp PERCENT                                          &mmv MOVE_UP                     &kp N7     &kp N8  &kp N9  &trans     &trans   &trans
-&kp LCTRL  &kp MINUS  &kp EQUAL  &kp SEMI  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp N4     &kp N5  &kp N6  &kp ASTRK  &kp SQT  &trans
+&kp CARET  &kp MINUS  &kp EQUAL  &kp SEMI  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp N4     &kp N5  &kp N6  &kp ASTRK  &kp SQT  &trans
 &kp PIPE   &kp AMPS   &kp LBKT   &kp RBKT  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp C_MUTE                    &mmv MOVE_DOWN                   &kp N1     &kp N2  &kp N3  &trans     &trans   &trans
                                  &trans    &trans                &trans                                                                                &kp RSHFT  &kp N0  &trans
             >;
