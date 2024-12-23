@@ -1,10 +1,10 @@
 layers:
   asert:
-  - {t: '`', s: '~'}
+  - {t: '`', h: gnum, s: '~'}
   - Q
   - W
   - D
-  - {t: F, h: gnum}
+  - F
   - G
   - $$mdi:arrow-up-bold$$
   - Y
@@ -196,11 +196,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   gnum:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
-  - {t: '9', s: (, type: held}
+  - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
   - F7
