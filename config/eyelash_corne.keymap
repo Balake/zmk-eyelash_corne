@@ -95,7 +95,7 @@
 &bootloader  &sys_reset  &bt BT_NXT  &bt BT_PRV  &rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_TOG                    &trans          &trans  &trans          &kp UP_ARROW  &trans     &sys_reset  &bootloader
 &trans       &trans      &trans      &trans      &rgb_ug RGB_EFF                  &rgb_ug RGB_BRI            &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans      &trans
 &trans       &trans      &trans      &trans      &trans                           &rgb_ug RGB_BRD  &trans            &trans          &trans  &trans          &trans        &trans     &trans      &trans
-                                     &trans      &trans                           &trans                                             &trans  &trans          &trans
+                                     &trans      &mt LEFT_ALT BACKSPACE           &trans                                             &trans  &trans          &trans
             >;
 
             label = "dir";
