@@ -30,11 +30,6 @@
     flavor = "tap-preferred";
 };
 
-&mo {
-    bindings = <&lt 2 SPACE>;
-    release-bindings = <&none>;
-};
-
 / {
     behaviors {
         td0: td0 {
